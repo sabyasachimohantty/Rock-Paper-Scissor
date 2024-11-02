@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    background-color: rgb(58, 54, 54);
+    height: 100vh;
+}
+
+header {
+    padding-block: 0.8rem;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 4rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.scoreboard {
+    background-color: white;
+    height: 5rem;
+    width: 8rem;
+    border: 0.15rem solid lightseagreen;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.red-glow {
+    background-color: #f33863;
+}
+
+.green-glow {
+    background-color: #28e828;
+}
+
+.gray-glow {
+    background-color: #E5E4E2;
+}
+
+.score {
+    font-size: 2rem;
+}
+
+.badge {
+    position: absolute;
+    background-color: rgb(249, 78, 78);
+    padding-inline: 0.4rem;
+    padding-block: 0.2rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+#user {
+    left: -2rem;
+    top: 1rem;
+}
+
+#comp {
+    right: -2rem;
+    top: 1rem;
+}
+
+.result {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.choices {
+    display: flex;
+    gap: 2rem;
+}
+
+img {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    border: 0.4rem solid salmon;
+}
+
+img:hover {
+    border-color: rgb(249, 78, 78);
+}
+
+#action-message {
+    color: white;
+}
